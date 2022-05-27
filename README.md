@@ -6,11 +6,12 @@ Reconstruction of the circularized genomes is the ultimate goal of prokaryotic g
 
 ![](images/introductory.png)
 
-### Setting up Environment
-cMAGfilter requires [mummer4](https://mummer4.github.io/). Please install mummner4 (https://github.com/mummer4/mummer/releases) and locate the softwares to $PATH.
+### Requirements
+cMAGfilter requires Python>=3.6 and [mummer4](https://mummer4.github.io/) package.
+You can install mummer from its [tarball](https://github.com/mummer4/mummer/releases) or from [bioconda](https://bioconda.github.io/recipes/mummer4/README.html?highlight=mummer4#package-package%20&#x27;mummer4&#x27;).
+Please locate the mummer4 package softwares in PATH or specify the location with -nuc parameter.
 
-
-### Setup the package
-
-
-
+### Setting up cMAGfilter
+'''
+python3 setup.py install --user
+'''
