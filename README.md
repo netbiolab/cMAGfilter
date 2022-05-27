@@ -21,12 +21,25 @@ Please locate the mummer4 package softwares in PATH or specify the location with
 
 ### Output data and the format
 You can find the example output files from 'examples/output/Mesosutterella_multiformis'.
-- all_by_all_alignment_results/ : This directory contains all-by-all nucmer alignment results between conspecific MAGs.
-- Mesosutterella_multiformis_align_back_results/: This directory contains core contigs to circular contig nucmer alignment results.
-- conspecific_genomes.contig_report.tsv: This file contains the information on whether the contigs of a conspecific MAG are founded from the other conspecific MAGs.
-- Mesosutterella_multiformis_core_contigs_alignment.core_contig_stat.tsv: 
-- core_contigs.fna: FASTA file for core contigs
-- Mesosutterella_multiformis_core_contigs_alignment.summary.tsv:
+- `all_by_all_alignment_results/`
+  This directory contains all-by-all nucmer alignment results between conspecific MAGs.
+- `[circular-contig]_align_back_results/`
+  This directory contains core contigs to circular contig nucmer alignment results.
+- `conspecific_genomes.contig_report.tsv` contains the information on whether the contigs of a conspecific MAG are founded from the other conspecific MAGs.
+- `[circular-contig]_core_contigs_alignment.core_contig_stat.tsv` contains the list of core contig and their alignment result against circular contig.
+- `core_contigs.fna` is FASTA sequence file of core contigs.
+- **`[circular-contig]_core_contigs_alignment.summary.tsv`** This is the final result file.
+> 1. circular contig name
+> 2. circular contig alignment length
+> 3. circular contig length
+> 4. circular contig alignment coverage (2. / 3.)
+> 5. core contig alignment length
+> 6. core contig length
+> 7. core contig alignment coverage (5. / 6.)
+> 8. aligned core contig count
+> 9. core contig count
+> 10. **core contig retrieval rate (8. / 9.)**: In the paper, we considered the core contig is genuine if the core contig retrieval rate is higher than 0.95. Therefore, in this example case, we filter out the Mesosutterella_multiformis's core contig as its core contig retrieval rate is 0.867.
+
 
 ### Publication dataset
 The entire 110 HiFi circular contigs and thir conspecific MAGs used in the paper are available from the [link](http://netbiolab.org/wiki/pubfiles/HiFi_publication_dataset.tar.gz) (6.6GB).
