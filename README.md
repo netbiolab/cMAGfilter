@@ -12,10 +12,9 @@ You can install mummer from its [tarball](https://github.com/mummer4/mummer/rele
 Please locate the mummer4 package softwares in PATH or specify the location with -nuc parameter.
 
 ### Setting up cMAGfilter
-`git clone https://github.com/netbiolab/cMAGfilter.git
-``cd cMAGfilter
-``python3 setup.py install --user
-`
+`git clone https://github.com/netbiolab/cMAGfilter.git`
+`cd cMAGfilter`
+`python3 setup.py install --user`
 
 ### Testrun with example dataset
 `python3 cMAGfilter.py example/input/circular_contigs/Akkermansia_muciniphila.fna example/input/conspecific_MAGs/Akkermansia_muciniphila example/output/Akkermansia_muciniphila`
