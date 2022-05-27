@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------------------------------------
+Step (a) : Identify core contigs shared by most conspecific genomes
+
+Total pair count : 300
+Running nucmer for all by all alignment of conspecific genomes...
+Completed : 10 / 300 pairs
+Completed : 20 / 300 pairs
+Completed : 30 / 300 pairs
+Completed : 40 / 300 pairs
+Completed : 50 / 300 pairs
+Completed : 60 / 300 pairs
+Completed : 70 / 300 pairs
+Completed : 80 / 300 pairs
+Completed : 90 / 300 pairs
+Completed : 100 / 300 pairs
+Completed : 110 / 300 pairs
+Completed : 120 / 300 pairs
+Completed : 130 / 300 pairs
+Completed : 140 / 300 pairs
+Completed : 150 / 300 pairs
+Completed : 160 / 300 pairs
+Completed : 170 / 300 pairs
+Completed : 180 / 300 pairs
+Completed : 190 / 300 pairs
+Completed : 200 / 300 pairs
+Completed : 210 / 300 pairs
+Completed : 220 / 300 pairs
+Completed : 230 / 300 pairs
+Completed : 240 / 300 pairs
+Completed : 250 / 300 pairs
+Completed : 260 / 300 pairs
+Completed : 270 / 300 pairs
+Completed : 280 / 300 pairs
+Completed : 290 / 300 pairs
+Completed : 300 / 300 pairs
+
+Computing length of contigs...
+
+Processing nucmer results of conspecific genomes...
+Completed : 10 / 300 pairs
+Completed : 20 / 300 pairs
+Completed : 30 / 300 pairs
+Completed : 40 / 300 pairs
+Completed : 50 / 300 pairs
+Completed : 60 / 300 pairs
+Completed : 70 / 300 pairs
+Completed : 80 / 300 pairs
+Completed : 90 / 300 pairs
+Completed : 100 / 300 pairs
+Completed : 110 / 300 pairs
+Completed : 120 / 300 pairs
+Completed : 130 / 300 pairs
+Completed : 140 / 300 pairs
+Completed : 150 / 300 pairs
+Completed : 160 / 300 pairs
+Completed : 170 / 300 pairs
+Completed : 180 / 300 pairs
+Completed : 190 / 300 pairs
+Completed : 200 / 300 pairs
+Completed : 210 / 300 pairs
+Completed : 220 / 300 pairs
+Completed : 230 / 300 pairs
+Completed : 240 / 300 pairs
+Completed : 250 / 300 pairs
+Completed : 260 / 300 pairs
+Completed : 270 / 300 pairs
+Completed : 280 / 300 pairs
+Completed : 290 / 300 pairs
+Completed : 300 / 300 pairs
+
+Identifying core contigs...
+Among 2602 contigs, 1445 contigs are core contigs, 55.53420445810915%
+Write complete : conspecific_genomes.contig_report.tsv
+Write complete : core_contigs.fna
+--------------------------------------------------------------------------------------------------------------------
+Step (b) : Align core contigs to the query circular contig and calculate the retreival rate of the core contig
+
+Aligning core contigs to the query circular contig using nucmer...
+Nucmer finished
+
+Calculating core contig retrieval rate...
+Core contig retrieval rate : 0.8671280276816609
+Write complete : Mesosutterella_multiformis_core_contigs_alignment.core_contig_stat.tsv
+Write complete : Mesosutterella_multiformis_core_contigs_alignment.summary.tsv
+--------------------------------------------------------------------------------------------------------------------
+Finished
