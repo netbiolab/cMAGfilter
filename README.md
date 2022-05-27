@@ -17,7 +17,7 @@ Please locate the mummer4 package softwares in PATH or specify the location with
 `python3 setup.py install --user`
 
 ### Testrun with example input data
-`python3 cMAGfilter.py examples/input/circular_contigs/Akkermansia_muciniphila.fna examples/input/conspecific_MAGs/Akkermansia_muciniphila example/output/Akkermansia_muciniphila`
+`python3 cMAGfilter.py examples/input/circular_contigs/Akkermansia_muciniphila.fna examples/input/conspecific_MAGs/Akkermansia_muciniphila examples/output/Akkermansia_muciniphila`
 
 ### Output data and the format
 
