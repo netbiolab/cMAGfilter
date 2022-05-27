@@ -12,6 +12,5 @@ You can install mummer from its [tarball](https://github.com/mummer4/mummer/rele
 Please locate the mummer4 package softwares in PATH or specify the location with -nuc parameter.
 
 ### Setting up cMAGfilter
-'''
-python3 setup.py install --user
-'''
+`python3 setup.py install --user
+`
