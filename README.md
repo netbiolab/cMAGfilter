@@ -20,7 +20,13 @@ Please locate the mummer4 package softwares in PATH or specify the location with
 `python3 cMAGfilter.py examples/input/circular_contigs/Akkermansia_muciniphila.fna examples/input/conspecific_MAGs/Akkermansia_muciniphila examples/output/Akkermansia_muciniphila`
 
 ### Output data and the format
-
+You can find the example output files from 'examples/output/Mesosutterella_multiformis'.
+- all_by_all_alignment_results/ : This directory contains all-by-all nucmer alignment results between conspecific MAGs.
+- Mesosutterella_multiformis_align_back_results/: This directory contains core contigs to circular contig nucmer alignment results.
+- conspecific_genomes.contig_report.tsv: This file contains the information on whether the contigs of a conspecific MAG are founded from the other conspecific MAGs.
+- Mesosutterella_multiformis_core_contigs_alignment.core_contig_stat.tsv: 
+- core_contigs.fna: FASTA file for core contigs
+- Mesosutterella_multiformis_core_contigs_alignment.summary.tsv:
 
 ### Publication dataset
 The entire 110 HiFi circular contigs and thir conspecific MAGs used in the paper are available from the [link](http://netbiolab.org/wiki/pubfiles/HiFi_publication_dataset.tar.gz) (6.6GB).
