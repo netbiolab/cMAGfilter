@@ -12,12 +12,15 @@ You can install mummer from its [tarball](https://github.com/mummer4/mummer/rele
 Please locate the mummer4 package softwares in PATH or specify the location with -nuc parameter.
 
 ### Setting up cMAGfilter
-`git clone https://github.com/netbiolab/cMAGfilter.git`
-`cd cMAGfilter`
+`git clone https://github.com/netbiolab/cMAGfilter.git`<br />
+`cd cMAGfilter`<br />
 `python3 setup.py install --user`
 
-### Testrun with example dataset
-`python3 cMAGfilter.py example/input/circular_contigs/Akkermansia_muciniphila.fna example/input/conspecific_MAGs/Akkermansia_muciniphila example/output/Akkermansia_muciniphila`
+### Testrun with example input data
+`python3 cMAGfilter.py examples/input/circular_contigs/Akkermansia_muciniphila.fna examples/input/conspecific_MAGs/Akkermansia_muciniphila example/output/Akkermansia_muciniphila`
+
+### Output data and the format
+
 
 ### Publication dataset
 The entire 110 HiFi circular contigs and thir conspecific MAGs used in the paper are available from the [link](http://netbiolab.org/wiki/pubfiles/HiFi_publication_dataset.tar.gz) (6.6GB).
