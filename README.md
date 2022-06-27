@@ -7,6 +7,7 @@ Reconstruction of the circularized genomes is the ultimate goal of prokaryotic g
 ![](images/introductory.png)
 
 ### Requirements
+The package is tested on Linux operating systems (Linux: Ubuntu 20.04 LTS).
 cMAGfilter requires Python>=3.6 and [mummer4](https://mummer4.github.io/) package.
 You can install mummer from its [tarball](https://github.com/mummer4/mummer/releases) or from [bioconda](https://bioconda.github.io/recipes/mummer4/README.html?highlight=mummer4#package-package%20&#x27;mummer4&#x27;).
 Please locate the mummer4 package softwares in PATH or specify the location with -nuc parameter.
@@ -17,11 +18,23 @@ git clone https://github.com/netbiolab/cMAGfilter.git
 cd cMAGfilter
 python3 setup.py install --user
 ```
+The installation only takes a few minutes.
 
 ### Testrun with example input data
 ``` bash
 python3 cMAGfilter.py examples/input/circular_contigs/Akkermansia_muciniphila.fna examples/input/conspecific_MAGs/Akkermansia_muciniphila examples/output/Akkermansia_muciniphila
 ```
+
+The testrun was performed under the following system, using only single core.
+- OS: Ubuntu 20.04 LTS (Windows Subsystem for Linux 2.0)
+- CPU: 12th Gen intel(R) Core(TM) i7-12700H 2.3Ghz
+- RAM: 8GB
+
+System usage
+- Running time: 6 min 20 sec
+- Peak RAM usage: 135MB
+
+Using multiple cores will reduce the running time. The number of conspecific genomes affects the runtime and peak memory usage, roughly in proportion with the square of # conspecific genomes.
 
 ### Output data and the format
 You can find the example output files from 'examples/output/Mesosutterella_multiformis'.
